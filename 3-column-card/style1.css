@@ -1,0 +1,54 @@
+
+body {
+  font-size: 15px;
+  color: white;
+} 
+
+h1 {
+  text-transform: uppercase;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.offer:nth-child(1) {
+  background: #e28525;
+  height: 300px;
+}
+
+.offer:nth-child(2) {
+  background-color:#016972;
+  height: 300px;
+}
+
+.offer:nth-child(3) {
+  background-color: #00403f;
+  height: 300px;
+}
+
+.button {
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
